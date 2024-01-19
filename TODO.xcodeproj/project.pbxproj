@@ -16,6 +16,7 @@
 		0CF747B22B5971D900D72303 /* TODOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF747B12B5971D900D72303 /* TODOTests.swift */; };
 		0CF747BC2B5971D900D72303 /* TODOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF747BB2B5971D900D72303 /* TODOUITests.swift */; };
 		0CF747BE2B5971D900D72303 /* TODOUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF747BD2B5971D900D72303 /* TODOUITestsLaunchTests.swift */; };
+		0CF747CB2B5974C500D72303 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF747CA2B5974C500D72303 /* ToDoItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		0CF747B72B5971D900D72303 /* TODOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TODOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CF747BB2B5971D900D72303 /* TODOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOUITests.swift; sourceTree = "<group>"; };
 		0CF747BD2B5971D900D72303 /* TODOUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0CF747CA2B5974C500D72303 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		0CF7479A2B5971D800D72303 /* TODO */ = {
 			isa = PBXGroup;
 			children = (
+				0CF747CA2B5974C500D72303 /* ToDoItem.swift */,
 				0CF7479B2B5971D800D72303 /* TODOApp.swift */,
 				0CF7479D2B5971D800D72303 /* ContentView.swift */,
 				0CF7479F2B5971D900D72303 /* Assets.xcassets */,
@@ -265,6 +268,7 @@
 			files = (
 				0CF747A52B5971D900D72303 /* Persistence.swift in Sources */,
 				0CF7479E2B5971D800D72303 /* ContentView.swift in Sources */,
+				0CF747CB2B5974C500D72303 /* ToDoItem.swift in Sources */,
 				0CF7479C2B5971D800D72303 /* TODOApp.swift in Sources */,
 				0CF747A82B5971D900D72303 /* TODO.xcdatamodeld in Sources */,
 			);
