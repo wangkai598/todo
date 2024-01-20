@@ -7,6 +7,8 @@
 
 import Foundation
 
+import CoreData
+
 //任务紧急程度的枚举
 enum Priority: Int {
     case low = 0
@@ -14,17 +16,22 @@ enum Priority: Int {
     case high = 2
 }
 
-class ToDoItem: ObservableObject, Identifiable {
-    var id = UUID()
-    @Published var name: String = ""
-    @Published var priority: Priority = .high
-    @Published var isCompleted: Bool = false
+public class ToDoItem: NSManagedObject {
+    @NSManaged public var id: UUID
+    @NSManaged var name: String
+    @NSManaged var priorityNum: Int32
+    @NSManaged var isCompleted: Bool
+}
+
+extension ToDoItem: Identifiable {
     
-    //实例化
-    init(name: String, priority: Priority = .normal, isCompleted: Bool = false) {
-        self.name = name
-        self.priority = priority
-        self.isCompleted = isCompleted
+    var priority: Priority {
+        get {
+            return Priority(rawValue: Int(priorityNum)) ?? .normal
+        }
+        
+        set {
+            self.priorityNum = Int32(newValue.rawValue)
+        }
     }
-    
 }

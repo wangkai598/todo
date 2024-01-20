@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C527F5D2B5AACD6006A60D5 /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C527F5C2B5AACD6006A60D5 /* NewToDoView.swift */; };
 		0CF7479C2B5971D800D72303 /* TODOApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF7479B2B5971D800D72303 /* TODOApp.swift */; };
 		0CF7479E2B5971D800D72303 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF7479D2B5971D800D72303 /* ContentView.swift */; };
 		0CF747A02B5971D900D72303 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CF7479F2B5971D900D72303 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C527F5C2B5AACD6006A60D5 /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
 		0CF747982B5971D800D72303 /* TODO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TODO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CF7479B2B5971D800D72303 /* TODOApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOApp.swift; sourceTree = "<group>"; };
 		0CF7479D2B5971D800D72303 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				0CF747CA2B5974C500D72303 /* ToDoItem.swift */,
 				0CF7479B2B5971D800D72303 /* TODOApp.swift */,
 				0CF7479D2B5971D800D72303 /* ContentView.swift */,
+				0C527F5C2B5AACD6006A60D5 /* NewToDoView.swift */,
 				0CF7479F2B5971D900D72303 /* Assets.xcassets */,
 				0CF747A42B5971D900D72303 /* Persistence.swift */,
 				0CF747A62B5971D900D72303 /* TODO.xcdatamodeld */,
@@ -269,6 +272,7 @@
 				0CF747A52B5971D900D72303 /* Persistence.swift in Sources */,
 				0CF7479E2B5971D800D72303 /* ContentView.swift in Sources */,
 				0CF747CB2B5974C500D72303 /* ToDoItem.swift in Sources */,
+				0C527F5D2B5AACD6006A60D5 /* NewToDoView.swift in Sources */,
 				0CF7479C2B5971D800D72303 /* TODOApp.swift in Sources */,
 				0CF747A82B5971D900D72303 /* TODO.xcdatamodeld in Sources */,
 			);
@@ -359,7 +363,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -416,7 +420,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -437,17 +441,19 @@
 				DEVELOPMENT_TEAM = 9LTL3Y55WB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "花开-TODO";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.haokai.todo.TODO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haokai.todo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -466,17 +472,19 @@
 				DEVELOPMENT_TEAM = 9LTL3Y55WB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "花开-TODO";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.haokai.todo.TODO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haokai.todo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
